@@ -38,3 +38,7 @@ workflows:
       - two:
           requires:
             - one
+
+
+- store_test_results:
+    path: test-results
